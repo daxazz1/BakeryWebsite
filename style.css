@@ -1,0 +1,429 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+/* FIRST PAGE STYLE */
+nav {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-around;
+  height: 71px;
+  width: 100%;
+  background-color: #56534c;
+  text-align: center;
+  opacity: 70%;
+}
+nav ul {
+  flex: auto;
+}
+nav li {
+  display: inline-block;
+  list-style: none;
+  color: #ffffff;
+  letter-spacing: 8px;
+  padding: 10px;
+}
+li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+li a:hover {
+  color: #000000;
+}
+.firstpagecontent {
+  position: relative;
+  text-align: center;
+  width: 940px;
+  height: 827px;
+  color: #ffffff;
+  padding-top: 0;
+  margin: 0 auto;
+}
+.firstPage > img {
+  position: absolute;
+  opacity: 80%;
+  width: 1601px;
+}
+#title {
+  font-family: "Dancing Script";
+  font-size: 40px;
+  margin: auto;
+  color: rgb(78, 90, 78);
+}
+.title {
+  padding: 0;
+}
+h1 {
+  padding-top: 10rem;
+  margin-top: 0;
+  font-family: "Averia Sans Libre";
+  font-size: 92px;
+}
+h4 {
+  padding-top: 5rem;
+  font-size: 30px;
+  font-family: "Averia Sans Libre";
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+.firstPage {
+  width: 1601px;
+
+  background-repeat: no-repeat;
+  background: rgba(0, 0, 0, 0.9);
+}
+.firstPage > img {
+  position: absolute;
+  opacity: 80%;
+}
+#ourmenubutton {
+  color: white;
+  font-family: "Averia Sans Libre";
+  font-size: 24px;
+  background-color: #56534c;
+  padding: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  opacity: 60%;
+  outline: none;
+  border: none;
+}
+#ourmenubutton:hover {
+  background-color: #504e4a;
+  cursor: pointer;
+  opacity: 100%;
+}
+
+/* SECOND PAGE STYLE */
+
+.secondPage {
+  display: flex;
+  justify-content: center;
+  width: 1601px;
+  height: 761px;
+  background-color: rgb(221, 197, 192);
+  padding-top: 120px;
+  text-align: center;
+}
+.chefcook {
+  display: flex;
+  justify-content: center;
+}
+.chefcook2 > img {
+  width: 111px;
+  height: 111px;
+  border-radius: 111px;
+  object-fit: cover;
+  object-position: 0 0;
+}
+.chefcook2 > img:hover {
+  filter: brightness(104%);
+}
+.secondpagecontent1 {
+  width: 40rem;
+  height: auto;
+  font-family: "Averia Sans Libre";
+  text-align: center;
+}
+.secondpagecontent1 > h1 {
+  font-size: 48px;
+}
+.secondpagecontent1 > p {
+  color: rgb(91, 66, 61);
+}
+.secondpagecontent2 {
+  width: 612px;
+  height: auto;
+}
+
+#chefcooktext {
+  font-family: "Dancing Script";
+  font-size: 40px;
+  color: rgb(157, 106, 83);
+  width: 25rem;
+  margin: 0 auto;
+}
+#artofcakes {
+  font-size: 48px;
+  color: rgb(91, 66, 61);
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: "Averia Sans Libre";
+}
+#artofcakestext {
+  color: rgb(157, 106, 83);
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: "Averia Sans Libre";
+}
+.name {
+  color: rgb(91, 66, 61);
+  border-top: 1px solid rgb(91, 66, 61);
+  border-bottom: 1px solid rgb(91, 66, 61);
+  padding: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+#h3 {
+  font-size: 26px;
+  color: rgb(91, 66, 61);
+}
+.secondpagecontent2 {
+  width: auto;
+  height: auto;
+  position: relative;
+}
+
+.photosfirstline,
+.photossecondline {
+  display: flex;
+}
+.photosfirstline > img,
+.photossecondline > img {
+  width: 296px;
+  height: 251px;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.photosfirstline > img:hover,
+.photossecondline > img:hover {
+  background: rgb(91, 66, 61);
+}
+#vektor {
+  position: absolute;
+  left: 12rem;
+  bottom: 23rem;
+}
+#tastessogood {
+  left: 15.2rem;
+  bottom: 26.8rem;
+  position: absolute;
+  font-size: 30px;
+  font-weight: 100;
+  color: rgb(157, 106, 83);
+  width: 150px;
+}
+
+/* THIRD PAGE STYLE */
+
+.thirdPage {
+  display: flex;
+  justify-content: center;
+}
+.thirdpagecontent {
+  display: flex;
+  position: relative;
+  width: 970px;
+  height: 761px;
+  border-radius: 5px;
+}
+
+.thirdPage > img {
+  position: absolute;
+  width: 1601px;
+  height: 761px;
+  object-fit: cover;
+}
+.thirdpagecontent1 {
+  width: 400px;
+  text-align: center;
+  height: 761px;
+  padding-top: 140px;
+}
+.thirdpagecontent2 {
+  margin-top: 140px;
+  width: 570px;
+  height: 443px;
+  background-color: rgb(221, 197, 192);
+  color: rgb(91, 66, 61);
+  font-family: "Averia Sans Libre";
+  padding-left: 70px;
+  padding-top: 70px;
+  border-radius: 5px;
+}
+.thirdpagecontent1 img {
+  width: 400px;
+  height: 513px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.thirdpagecontent2-photos {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+  padding-right: 60px;
+  width: 420px;
+}
+
+.thirdpagecontent2-photos > img {
+  border-radius: 91px;
+  width: 91px;
+  height: 91px;
+  object-fit: cover;
+}
+.thirdpagecontent2-photos > img:hover {
+  filter: brightness(115%);
+}
+
+/* FOURTH PAGE STYLE */
+.fourthPage {
+  max-width: 1601px;
+}
+.fourthPage img {
+  position: absolute;
+  width: 1601px;
+  height: 761px;
+  object-fit: cover;
+}
+.fourthpagecontent1 {
+  text-align: center;
+  padding-top: 70px;
+}
+.fourthpagecontent {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+#h2-breakfast {
+  font-size: 60px;
+  font-weight: 800;
+  font-family: "Averia Sans Libre";
+  color: #ffffff;
+}
+h3 {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "Averia Sans Libre";
+  margin-bottom: 0;
+}
+.description {
+  color: rgb(138, 148, 142);
+  font-family: "Averia Sans Libre";
+  margin-top: 0;
+}
+.price {
+  font-size: 36px;
+  font-family: "Averia Sans Libre";
+  color: rgb(157, 106, 83);
+  margin-top: 18px;
+}
+.fourthpagecontent2-element img {
+  position: relative;
+  width: 441px;
+  height: 601px;
+}
+.fourthpagecontent2-element {
+  background-color: rgba(245, 236, 234, 0.87);
+  width: 421px;
+  height: 580px;
+  margin-top: 70px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+.fourthpagecontent2-element > p {
+  font-family: "Averia Sans Libre";
+  color: rgb(91, 66, 61);
+}
+
+#read {
+  width: 250px;
+  height: 70px;
+  font-family: "Averia Sans Libre";
+  background: transparent;
+  border-color: rgb(91, 66, 61);
+  font-size: 30px;
+  color: rgb(91, 66, 61);
+}
+#read:hover {
+  background: rgba(241, 211, 205, 0.952);
+  cursor: pointer;
+}
+
+/* FIFTH PAGE STYLE */
+
+.fifthPage {
+  text-align: center;
+  background-color: rgb(243, 241, 233);
+  width: 1601px;
+  height: 1080px;
+}
+.fifthpagecontent {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.fifthpagecontent1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fifthpagecontent1 > img {
+  width: 102px;
+  height: 102px;
+  object-fit: cover;
+  border-radius: 102px;
+}
+.fifthpagecontent1 > h4,
+p {
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(157, 109, 94);
+}
+.fifthpagecontent1 > p {
+  font-family: "Averia Sans Libre";
+  color: rgb(91, 66, 61);
+  margin: 0;
+}
+.fifthpagecontent2 {
+  display: flex;
+}
+.fifthpagecontent2-element > img {
+  width: 841px;
+  height: 557px;
+  border-radius: 5px;
+}
+.fifthpagecontent2-element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-wrap {
+  background-color: rgb(243, 241, 233);
+  width: 1601px;
+  height: 241px;
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+}
+.footer-li a {
+  color: rgb(78, 90, 78);
+}
+
+.footer-wrap li {
+  display: inline-block;
+  list-style: none;
+  letter-spacing: 8px;
+  padding: 0px;
+}
+.footer-wrap > ul {
+  display: flex;
+  gap: 20px;
+  border-top: 0.5px solid rgb(193, 194, 193);
+  border-bottom: 0.5px solid rgb(193, 194, 193);
+  padding: 15px;
+  align-items: center;
+  padding: 50px;
+}
+.footer-wrap li a:hover {
+  color: rgb(193, 194, 193);
+}
