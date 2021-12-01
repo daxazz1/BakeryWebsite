@@ -90,6 +90,7 @@ h4 {
   cursor: pointer;
   opacity: 100%;
 }
+
 /* SECOND PAGE STYLE */
 
 .secondPage {
@@ -235,8 +236,6 @@ h4 {
   border-radius: 5px;
 }
 .thirdpagecontent1 img {
-  /* width: 400px;
-  height: 513px; */
   border-radius: 5px;
 }
 .thirdpagecontent2-photos {
