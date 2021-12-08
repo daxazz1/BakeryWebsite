@@ -17,8 +17,8 @@
     <title>Bakery website</title>
 </head>
 <body>
-    <div class="wrapper">
-        <div id="linkFirst" class="firstPage">
+
+        <div id="linkFirst" class="firstPage scrollAlign">
             <nav>
                 <ul id="title">
                     <a href="index.html"><li class="title">Gustoso</li></a>
@@ -40,15 +40,17 @@
                     <li><a href="https://instagram.com"><i class="fa fa-instagram"></i></a></li>
                 </ul>
             </nav>
-                <div class="firstpagecontent">
+            <div class="firstpagecontent">
                     <h1>Pastry with love</h1>
                     <h4>We’re bringing you fresh ingredients every day in ways you can’t resist.</h4>
-                    <br><br><br><br><br><br><br>
-                    <button id="ourmenubutton">OUR MENU</button>
-                </div>
+                    <br>
+                    <div id="button"><button id="ourmenubutton">OUR MENU</button></div>
+            </div>
         </div>
-    
-        <div id="linkSecond" class="secondPage">
+
+        <div id="linkSecond" class="secondPage scrollAlign">
+
+
             <div class="secondpagecontent1">
                 <h2 id="artofcakes">Art of cakes</h2>
                 <h5 id="artofcakestext">WE CREATE DELICIOUS MEMORIES</h5>
@@ -73,43 +75,55 @@
             </div>
 
             <div class="secondpagecontent2">
-                <div class="fixas">
-                    <img id="vektor" src="2/vektor.png">
-                    <h1 id="tastessogood">TASTES SO GOOD!</h1>       
+
+                <div class="photos">
+                    <div class="section">
+                        <div class="vektordiv">
+                            <h1 id="tastessogood">TASTES SO GOOD!</h1>
+                            <img id="vektor" src="2/vektor.png">
+                        </div>
+                    </div>
                     <div class="photosfirstline">
-                        <img src="2/img@1X (5).png">
-                        <img src="2/img@1X (6).png">
+                                    <div class="photosContent">
+                                        <img src="2/img@1X (5).png">
+                                    </div>
+                                    <div class="photosContent">
+                                        <img src="2/img@1X (6).png">
+                                    </div>
                     </div>
                     <div class="photossecondline">
-                        <img src="2/img@1X (7).png">
-                        <img src="2/img@1X (8).png">
+                                        <div class="photosContent">
+                                            <img src="2/img@1X (7).png">
+                                        </div>  
+                                        <div class="photosContent">
+                                            <img src="2/img@1X (8).png">
+                                        </div>  
                     </div>
+
                 </div>
+                    </div>
             </div>
-        </div>
 
-        <div id="linkThird" class="thirdPage">
+        <div id="linkThird" class="thirdPage scrollAlign">
             <div class="thirdpagecontent">
-                <div class="thirdpagecontent1">
-                    <img src="3/img@1X (3).png">
-                </div>
-
+                <div class="thirdpagecontent1"><img src="3/img@1X (3).png" alt=""></div>
                 <div class="thirdpagecontent2">
+                    <br>
                     <h2 id="artofcakes">Tasty pancakes</h2>
                     <h5 id="artofcakestext">SEASON FAVOURITE</h5>
                     <p>Maecenas nec odio et ante tincidunt tempus. Donec </p>
                     <p>  vitae sapien ut libero venenatis faucibus. Nullam quis </p>
                     <p>ante. Etiam sit amet orci eget eros faucibus.</p>
-                    <div class="thirdpagecontent2-photos">
-                        <img src="3/img@1X (2).png">
-                        <img src="3/img@1X (1).png">
-                        <img src="3/img@1X (9).png">
-                    </div>
+                        <div class="thirdpagecontent2-photos">
+                            <img src="3/img@1X (2).png">
+                            <img src="3/img@1X (1).png">
+                            <img src="3/img@1X (9).png">
+                        </div>
                 </div>
             </div>
         </div>
 
-        <div id="linkFourth" class="fourthPage">
+        <div id="linkFourth" class="fourthPage scrollAlign">
             <div class="fourthpagecontent">
                 <div class="fourthpagecontent1">
                     <div id="h2-breakfast">Breakfast</div>
@@ -138,7 +152,7 @@
             </div>
         </div>
 
-        <div id="linkFifth" class="fifthPage"><br>
+        <div id="linkFifth" class="fifthPage scrollAlign"><br>
             <img src="5/Vektor-Smartobjekt@1X (1).png" alt="">
             <h2 id="artofcakes">The Jibarito sandwich</h2>
             <h5 id="artofcakestext">THE BEST SANDWICH YOU'VE EVER TASTED!</h5>
@@ -162,11 +176,12 @@
                         <img src="5/bg@1X.png">
                     </div>
                 </div>
-            </div>
+            </div><br><br><br><br><br><br><br>
+
         </div>
         <footer>
             <div class="footer-wrap"> 
-                <ul>
+                <ul id="firstpartfooter">
                     <li class="footer-li"><a href="#"> OUR MENU</a></li>
                     <li class="footer-li">~</li>
                     <li class="footer-li"><a href="#"> GALLERY</a></li>
@@ -176,7 +191,7 @@
                 <div id="title">
                     <a href="index.html"><li id="title">Gustoso</li></a>
                 </div>
-                <ul>
+                <ul id="secondpartfooter">
                     <li class="footer-li"><a href="#"> EVENTS</a></li>
                     <li class="footer-li">~</li>
                     <li class="footer-li"><a href="#"> CATERING</a></li>
