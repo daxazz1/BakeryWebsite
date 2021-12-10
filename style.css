@@ -483,6 +483,14 @@ footer {
     display: flex;
     flex-direction: column;
   }
+
+  #title {
+    font-size: 20px;
+  }
+  #social {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
   #links li:nth-child(2),
   #links li:nth-child(4),
   #links li:nth-child(6),
@@ -491,9 +499,12 @@ footer {
   }
   nav ul li a {
     font-size: 14px;
+    padding-left: 0;
   }
   nav ul li {
     padding-bottom: 0px;
+    padding-left: 0;
+    padding-right: 0;
   }
   .firstPage h1 {
     padding-top: 200px;
